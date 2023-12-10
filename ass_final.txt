@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('API 3by2 Grid View'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
       ),
       body: posts.isEmpty
           ? const Center(child: CircularProgressIndicator())
@@ -106,7 +106,7 @@ class ImageViewPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.green,
       ),
       body: Center(
         child: Image.network(imageUrl),
